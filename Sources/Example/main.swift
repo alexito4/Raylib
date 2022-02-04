@@ -6,6 +6,8 @@
  * http://stregasgate.com
  */
 
-let game = SnakeGame()
+coreBasicWindowExample()
 
-game.run()
+//let game = SnakeGame()
+//
+//game.run()
