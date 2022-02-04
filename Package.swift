@@ -1,6 +1,4 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 var cSettings: [CSetting] {
@@ -37,7 +35,7 @@ var sources: [String] {
     var array: [String] = []
     
     // Raylib
-    let raylib = ["rcore.c", "rmodels.c", "raudio.c", "rshapes.c", "rtext.c", "rtextures.c", "utils.c"]
+    let raylib = ["rcore.c", "rmodels.c", "raudio.c", "rshapes.c", "rtext.c", "rtextures.c", "utils.c", "raygui.c"]
     array.append(contentsOf: raylib.map({"UnmodifiedRaylibSrc/" + $0}))
     
     // GLFW Common
