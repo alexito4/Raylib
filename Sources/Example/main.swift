@@ -10,7 +10,8 @@
 //coreBasicScreenManagerExample()
 //coreInputKeysExample()
 //coreInputMouseExample()
-coreInputMouseWheelExample()
+//coreInputMouseWheelExample()
+coreInputGamepadExample()
 
 //let game = SnakeGame()
 //
