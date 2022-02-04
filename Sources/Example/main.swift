@@ -6,7 +6,8 @@
  * http://stregasgate.com
  */
 
-coreBasicWindowExample()
+//coreBasicWindowExample()
+coreBasicScreenManagerExample()
 
 //let game = SnakeGame()
 //
