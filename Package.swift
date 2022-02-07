@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -68,7 +68,13 @@ let package = Package(
         .executable(name: "Example", targets: ["Example"])
     ],
     targets: [
-        .target(name: "Example", dependencies: ["Raylib"]),
+        .executableTarget(
+            name: "Example",
+            dependencies: ["Raylib"],
+            resources: [
+                .copy("Images/")
+            ]
+        ),
         .target(name: "Raylib", dependencies: ["_RaylibC"]),
         .target(name: "_RaylibC", exclude: exclude, sources: sources, publicHeadersPath: "Include", cSettings: cSettings),
     ]

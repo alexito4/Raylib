@@ -11,8 +11,8 @@
 //coreInputKeysExample()
 //coreInputMouseExample()
 //coreInputMouseWheelExample()
-//coreInputGamepadExample()
-core2dCameraExample()
+coreInputGamepadExample()
+//core2dCameraExample()
 
 //let game = SnakeGame()
 //
